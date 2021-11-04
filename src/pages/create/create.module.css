@@ -1,0 +1,83 @@
+.container {
+  width: calc(100% - 4em);
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 1em 0em 1em;
+}
+
+.collectionName {
+  border: 1px solid red;
+  margin-right: 2em;
+}
+
+.nameHeader {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.layerorder {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.layerorderHeader {
+  width: 100%;
+  border: 1px solid red;
+}
+
+.layer_trait {
+  width: 100%;
+  display: flex;
+  border: 1px solid red;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+._name {
+  flex: 1;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5em 0;
+}
+
+.line {
+  margin-right: 0.5em;
+  border: 1px solid red;
+}
+
+.icon {
+  width: 2em;
+  height: 2em;
+  background: gray;
+  margin-right: 0.5em;
+}
+
+.trait {
+  margin-left: 1em;
+}
+
+

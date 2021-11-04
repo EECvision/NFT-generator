@@ -1,0 +1,31 @@
+.container {
+  width: auto;
+  height: 100%;
+  overflow: auto;
+  border: 1px solid red;
+}
+
+.navItems {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid red;
+}
+
+.navItem {
+  border: 1px solid red;
+  margin-bottom: 2em;
+}
+
+.navItem:last-child {
+  margin-bottom: 0;
+}
+
+.navItem > img {
+  display: block;
+  width: 4em;
+  height: 4em;
+}
+

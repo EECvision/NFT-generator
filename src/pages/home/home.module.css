@@ -1,0 +1,105 @@
+.container {
+  width: calc(100% - 4em);
+  height: 100%;
+  overflow: auto;
+  padding: 1em 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 2em;
+  position: relative;
+  width: auto;
+  margin-bottom: 8em;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.walletBtn {
+  position: absolute;
+}
+
+.features {
+  width: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+
+.feature {
+  margin: 2em;
+}
+
+.feature .header {
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+.feature .icon {
+  display: block;
+  width: 8em;
+}
+
+.functionalities {
+  margin: 2em;
+}
+
+.function {
+  border-radius: 0.75em;
+  margin-bottom: 0.5em;
+  padding: 0.75em;
+  width: 20em;
+  text-align: center;
+  border: 1px solid red;
+}
+
+.icons {
+  position: relative;
+  width: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 8em;
+  margin: 2em;
+}
+
+.icons .icon {
+  display: block;
+  width: 100%;
+  position: absolute;
+}
+
+.icons .icon:nth-child(2) {
+  width: 80%;
+  transform: translateY(-10%);
+}
+
+.icons .icon:nth-child(3) {
+  width: 80%;
+  transform: translate(60%, -30%);
+}
+
+.btnWrapper {
+  width: 100%;
+  max-width: 12em;
+}
+
+@media screen and (max-width: 1276px) {
+  .nav {
+    margin-bottom: 4em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    margin-bottom: 2em;
+  }
+}

@@ -1,0 +1,49 @@
+.container {
+  border: 1px solid red;
+  width: 100%;
+  max-width: 18em;
+  margin-left: 2em;
+}
+
+.wrapper {
+  padding: 0 1em;
+  margin-bottom: 1em;
+}
+
+.connectWrapper {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.btnWrapper {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+
+.previewWrapper {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.detailsWrapper {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.input {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.action {
+  border: 1px solid red;
+  flex: 50%;
+}
+
+.action input {
+  width: 100%;
+}

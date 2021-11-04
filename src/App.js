@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
+import Sidebar from './components/sidebar/sidebar';
+import Create from './pages/create/create';
+import { Switch, Route, Redirect } from "react-router-dom";
+
 import './App.css';
+import Home from './pages/home/home';
+import Logo from './components/logo/logo';
+import Mint from './pages/mint/mint';
+import Explore from './pages/explore/explore';
+import Canvas from './pages/canvas/canvas';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="App-Container">
+        <Sidebar />
+        <Logo />
+
+        <Switch>
+          <Redirect exact from="/" to="/canvas" />
+          <Route exact path="/home" component={Home} />
+          <Route exact path="/create" component={Create} />
+          <Route exact path="/mint" component={Mint} />
+          <Route exact path="/explore" component={Explore} />
+          <Route exact path="/canvas" component={Canvas} />
+        </Switch>
+      </div>
     </div>
-  );
+  )
 }
 
 export default App;

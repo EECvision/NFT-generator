@@ -1,0 +1,7 @@
+[
+  {"id": "1", "name": "background", "trait": "1", "imaageList": []},
+  {"id": "2", "name": "head", "trait": "2", "imaageList": []},
+  {"id": "3", "name": "body", "trait": "3", "imaageList": []},
+  {"id": "4", "name": "cloth", "trait": "4", "imaageList": []},
+  {"id": "5", "name": "necklace", "trait": "5", "imaageList": []} 
+]

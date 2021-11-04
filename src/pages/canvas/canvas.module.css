@@ -1,0 +1,10 @@
+.container {
+  width: calc(100% - 4em);
+  height: 100%;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 1em 0em 1em;
+  border: 1px solid red;
+}

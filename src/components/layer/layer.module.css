@@ -1,0 +1,33 @@
+.item {
+  width: 100%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+._name {
+  flex: 1;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5em 0;
+  text-transform: capitalize;
+}
+
+.line {
+  margin-right: 0.5em;
+  border: 1px solid red;
+}
+
+.icon {
+  width: 2em;
+  height: 2em;
+  background: gray;
+  margin-right: 0.5em;
+}
+
+.trait {
+  margin-left: 1em;
+}

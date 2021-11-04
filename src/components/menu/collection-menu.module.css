@@ -1,0 +1,24 @@
+.container {
+  border: 1px solid red;
+  width: 100%;
+  overflow: auto;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 8em;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  overflow: auto;
+  gap: 1em;
+}
+
+.wrapper * {
+  flex: 0 0 auto;
+}
+
+.uploadBtn {
+  width: 100%;
+}

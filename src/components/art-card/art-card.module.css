@@ -1,0 +1,10 @@
+.container {
+  width: 10em;
+  height: 10em;
+  border: 1px solid red;
+}
+
+.image {
+  display: block;
+  width: 100%;
+}
